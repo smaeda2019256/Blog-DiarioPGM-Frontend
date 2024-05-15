@@ -20,10 +20,12 @@ export const Home = () => {
   }, [search])
   return (
     <>
-    <h1 className="h1">Technologies </h1>
-    <Category />
+    
       <h1 className="h1">Recent Posts</h1>
       <Card posts={posts} />
+      <br />
+      <h1 className="h1">Technologies </h1>
+    <Category />
     </>
   )
 }
